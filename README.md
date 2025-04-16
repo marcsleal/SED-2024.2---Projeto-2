@@ -141,6 +141,14 @@ A estrutura hierárquica das Redes de Petri no CPN Tools foi fundamental para mo
   <figcaption style="text-align: center; font-style: italic;">Figura 5: Robo - Responsável por mover o item no Buffer  e colocar na Maquina 02 ou Maquina 03 a Depender da Rota  do item </figcaption>
 </figure>
 
+---
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/a924f096-44b9-43a9-bb71-71f05a883e5a" alt="Máquina 01" style="width:100%" >
+  <figcaption style="text-align: center; font-style: italic;">Figura 6: Robo - Responsável por mover o item para o Buffer de Saída </figcaption>
+</figure>
+
+---
 
 
 
