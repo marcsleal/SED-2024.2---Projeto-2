@@ -97,10 +97,9 @@ Cada célula de manufatura descrita no documento possui os seguintes componentes
 
 
 
-![Foto01](https://github.com/user-attachments/assets/d2e40b22-6a9d-4179-9f64-0f14bd544974)
 
-| Célula 1  | Célula 1 | 
-|----------|----------|
-| ![example](img/![Captura de tela 2025-04-16 052016](https://github.com/user-attachments/assets/5a3b589f-4334-4582-83f3-8150bff9360e)
-![Captura de tela 2025-04-16 052051](https://github.com/user-attachments/assets/4c3d4e70-8fd3-4921-9020-b069b28f4c1b)
-) | ![example](img/maquina_2.png) | 
+
+
+| Célula 1 - Parte 1 | Célula 1 - Parte 2 |
+|--------------------|--------------------|
+| ![Celula01Part01](https://github.com/user-attachments/assets/c474f62c-f047-4598-8ab9-9ee38ede354d) |![Celula01Part02 (1)](https://github.com/user-attachments/assets/e5b35ff7-8f75-47af-8044-37b67f916513)|
