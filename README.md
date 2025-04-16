@@ -103,3 +103,13 @@ Cada célula de manufatura descrita no documento possui os seguintes componentes
 | Célula 1 - Parte 1 | Célula 1 - Parte 2 |
 |--------------------|--------------------|
 | ![Celula01Part01](https://github.com/user-attachments/assets/c474f62c-f047-4598-8ab9-9ee38ede354d) |![Celula01Part02 (1)](https://github.com/user-attachments/assets/e5b35ff7-8f75-47af-8044-37b67f916513)|
+
+A estrutura hierárquica das Redes de Petri no CPN Tools foi fundamental para modelar a Célula 0x de forma organizada e eficiente. Através da criação de subpáginas dedicadas, cada elemento do sistema — incluindo depósitos, máquinas e robôs — pôde ser desenvolvido e analisado individualmente, garantindo um detalhamento preciso de suas funções e interações. Essa abordagem modular não apenas facilitou a visualização do fluxo de processos, mas também permitiu a integração dos componentes em um modelo coeso e sem bloqueios. Os submodelos resultantes, apresentados a seguir, demonstram como a hierarquia no CPN Tools possibilita a construção de sistemas complexos de maneira intuitiva e estruturada
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/97c5595c-6f97-430b-b3a7-646a85d07bc6" alt="Máquina 01" style="width:100%">
+  <figcaption style="text-align: center; font-style: italic;">Figura 1: Máquina 01 - Responsável pelo processamento inicial na Célula 0x</figcaption>
+</figure>
+
+
+
