@@ -7,14 +7,16 @@
 Para uma explicação detalhada do funcionamento do sistema e uma demonstração da simulação,
 [Vídeo de Demonstração do Funcionamento](https://youtu.be/f8zDNdk1tXs)
 
-# Modelagem de um sistema de manufatura com quatro células
-## Descrição do Projeto
+# Descrição do Projeto
 
-Este projeto tem o objetivo de desenvololver um sistema de manufatura contendo quantro células de manufatura onde cada uma possui um depósito de entrada, um depósito de saída, três máquinas e três robôs.
+**Descrição do Projeto de Modelagem de Sistema de Manufatura com Redes de Petri Coloridas**  
 
-### Problema Resolvido
+Este projeto tem como objetivo modelar um sistema de manufatura composto por quatro células idênticas, utilizando Redes de Petri Coloridas (CPN) no CPN Tools. Cada célula opera de forma autônoma, mas integrada ao sistema maior, seguindo um fluxo de produção pré-definido que envolve depósitos, máquinas e robôs responsáveis pelo transporte de itens.  
 
-O problema central deste projeto é a coordenação de múltiplos robôs autônomos em um ambiente compartilhado, onde eles precisam acessar o Buffer de Entrada para retirar insumos e entregá-los às máquinas de processamentos:
+Cada célula é composta por um depósito de entrada, um depósito de saída, três máquinas (M1, M2 e M3) e três robôs (R1, R2 e R3). As máquinas possuem seus próprios depósitos de entrada e saída, com capacidade máxima de quatro itens cada. Os robôs atuam de forma coordenada para transportar os itens entre os depósitos, seguindo duas rotas de produção distintas: Rota i e Rota j.  
+
+O fluxo inicia quando os itens chegam ao depósito de entrada da célula. O Robô 1 (R1) é responsável por levar esses itens para o depósito de entrada da Máquina 1 (M1). Após o processamento em M1, o Robô 2 (R2) transporta os itens para os depósitos de entrada das Máquinas 2 (M2) ou 3 (M3), dependendo da rota escolhida (i ou j). Finalmente, o Robô 3 (R3) coleta os itens processados nos depósitos de saída de M2 ou M3 e os encaminha para o depósito de saída da célula, concluindo o ciclo.  
+
 
 ## Modelagem do sistema
 
