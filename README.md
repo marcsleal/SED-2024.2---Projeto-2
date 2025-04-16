@@ -106,10 +106,41 @@ Cada célula de manufatura descrita no documento possui os seguintes componentes
 
 A estrutura hierárquica das Redes de Petri no CPN Tools foi fundamental para modelar a Célula 0x de forma organizada e eficiente. Através da criação de subpáginas dedicadas, cada elemento do sistema — incluindo depósitos, máquinas e robôs — pôde ser desenvolvido e analisado individualmente, garantindo um detalhamento preciso de suas funções e interações. Essa abordagem modular não apenas facilitou a visualização do fluxo de processos, mas também permitiu a integração dos componentes em um modelo coeso e sem bloqueios. Os submodelos resultantes, apresentados a seguir, demonstram como a hierarquia no CPN Tools possibilita a construção de sistemas complexos de maneira intuitiva e estruturada
 
+---
+
 <figure>
   <img src="https://github.com/user-attachments/assets/97c5595c-6f97-430b-b3a7-646a85d07bc6" alt="Máquina 01" style="width:100%">
   <figcaption style="text-align: center; font-style: italic;">Figura 1: Máquina 01 - Responsável pelo processamento inicial na Célula 0x</figcaption>
 </figure>
+
+---
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/b077fa12-a8c4-4101-82b2-43ecf4c96aae" alt="Máquina 01" style="width:100%" >
+  <figcaption style="text-align: center; font-style: italic;">Figura 2: Máquina 02 - Responsável pelo processamento dos Itens da Rota I na Célula 0x</figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/afbda032-1316-4e80-8306-baebe883458e" alt="Máquina 01" style="width:100%" >
+  <figcaption style="text-align: center; font-style: italic;">Figura 3: Máquina 03 - Responsável pelo processamento dos Itens da Rota J na Célula 0x</figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/6f90b647-3cae-4e3c-9980-298fc3b987f7" alt="Máquina 01" style="width:100%" >
+  <figcaption style="text-align: center; font-style: italic;">Figura 4: Robo - Responsável por mover o item no Buffer de entrada e colocar na Maquina 01</figcaption>
+</figure>
+
+---
+
+<figure>
+  <img src="https://github.com/user-attachments/assets/72dee470-5eea-4280-ae75-d9837b16c809" alt="Máquina 01" style="width:100%" >
+  <figcaption style="text-align: center; font-style: italic;">Figura 5: Robo - Responsável por mover o item no Buffer  e colocar na Maquina 02 ou Maquina 03 a Depender da Rota  do item </figcaption>
+</figure>
+
 
 
 
